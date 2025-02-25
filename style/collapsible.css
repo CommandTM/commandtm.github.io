@@ -1,7 +1,6 @@
 .collapsible {
     cursor: pointer;
     border: none;
-    outline: none;
 }
 
 .active, .collapsible:hover {

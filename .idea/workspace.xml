@@ -5,88 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc912baa-c8e7-456b-b57e-05ba47b8858c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/collapsible.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/collapsible.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/ranking.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/command.net.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MikuAI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/A Hat in Time.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/A Short Hike.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Battle for Bikini Bottom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Bomb Rush Cyberfunk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Brotato.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Castlevania 64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Celeste 64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Final Fantasy 6 Worlds Collide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Final Fantasy Tactics Advance.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Fire Emblem Sacred Stones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Hades.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Hammerwatch.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Inscryption.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Kingdom Hearts Chain of Memories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Kingdom Hearts RE Chain Of Memories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Kirby's Dream Land 3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Lethal Company.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Mario &amp; Luigi Superstar Saga.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Mario Kart 64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Mario is Missing.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Mega Man 2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Minit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Monster Sanctuary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Pseudoregalia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Psychonauts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Resident Evil 2 Remake.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Super Mario Land 2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Tunic.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Ultrakill.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Vacation Simulator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Wario Land 4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Wario Land.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Yoshi's Island.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Yu-Gi-Oh! 2006.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Options/Zork Grand Inquisitor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/button.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/VOC-RE.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/Coraline Zelpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/Elmira Iosue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/Persis Aladdin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/Sha'ul Glinda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/hackButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gameAssets/theButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/games.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/placeholders/404.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/placeholders/miku.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/unused/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/idleGame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/MikuAI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/activateMikuMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/changelog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/download.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/gameScripts/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/gameScripts/unlocking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/gameScripts/window.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/getGames.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/parseOptionFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/taikoAPTracker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/404.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/MikuAI.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/apParserPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/changelog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/game.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/mikuMode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/taikoTracker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taikoAPTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unrelated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking.html" beforeDir="false" afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/collapsible.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/collapsible.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/ranking.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/ranking.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740490038420</updated>
-      <workItem from="1740490039347" duration="3455000" />
+      <workItem from="1740490039347" duration="5104000" />
     </task>
     <servers />
   </component>
