@@ -1,0 +1,22 @@
+.collapsible {
+    padding: 18px;
+    width: 95%;
+    text-align: center;
+}
+
+.content {
+    width: 95%;
+    background-color: #f1f1f1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
