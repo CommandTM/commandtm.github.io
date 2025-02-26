@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: blue;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    font-size: 0;
+}
+
+.headerButton {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.headerText {
+    color: black;
+}
+
+.headerButton:hover {
+    background-color: lightblue;
+}
