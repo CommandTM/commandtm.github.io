@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.headerLink {
+    text-decoration: none;
+    width: 25%;
+}
+
+.header {
+    background-color: white;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+
+.headerButton {
+    width: 100%;
+    text-align: center;
+    border: black solid 1px;
+    font-size: 20px;
+}
+
+.headerText {
+    color: black;
+}
+
+#first {
+    background-color: gold;
+}
+
+#first:hover {
+    background-color: goldenrod;
+}
+
+#second {
+    margin-top: 5%;
+    background-color: silver;
+}
+
+#second:hover {
+    background-color: grey;
+}
+
+#third {
+    margin-top: 10%;
+    background-color: goldenrod;
+}
+
+#third:hover {
+    background-color: #CD7F32;
+}
+
+#fourth {
+    margin-top: 15%;
+}
+
+#fourth:hover {
+    background-color: lightgray;
+}
