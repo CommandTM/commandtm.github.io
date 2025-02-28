@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>The Movie Review Corner</title>
-    <link rel="stylesheet" href="style/headers/header.css">
+    <link rel="stylesheet" href="style/headers/movieHeader.css">
+    <link rel="stylesheet" href="style/collapsible.css">
+    <link rel="stylesheet" href="style/movie.css">
 </head>
-<body>
+<body style="background-color: black">
 <header>
   <div class="header">
     <center>
@@ -15,7 +17,19 @@
         <a href="musicReview.html"><div class="headerButton"><h3 class="headerText">Music Reviews</h3></div></a>
     </center>
   </div>
+    <img src="assets/curtain.png" style="position: absolute; z-index: 99">
+    <img src="assets/curtain-hflip.png" style="position: absolute; right: 0; z-index: 99">
 </header>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+    <img src="https://m.media-amazon.com/images/M/MV5BZWFhNThmNjEtY2ZhNy00MDRhLTkwYTEtMWQwOTA5NDhlZWRlXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_.jpg" style="width: 1440px; height: 810px">
+</div>
 
+<div class="center">
+    <button type="button" class="collapsible">Review Archive</button>
+    <div class="content">
+        <h1>Nothing Here Yet!</h1>
+    </div>
+</div>
 </body>
+<script src="script/collapsible.js"></script>
 </html>

@@ -2,16 +2,20 @@
     padding: 18px;
     width: 95%;
     text-align: center;
-    outline: black solid 1px;
+    outline: red solid 1px;
+    background-color: black;
+    color: white;
 }
 
 .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: #343434;
 }
 
 .content {
     width: 95%;
-    background-color: #f1f1f1;
+    background-color: black;
+    color: white;
+    outline: red solid 1px;
     align-content: center;
     align-items: center;
     display: flex;
@@ -25,8 +29,4 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-}
-
-p {
-    padding: 8px;
 }
