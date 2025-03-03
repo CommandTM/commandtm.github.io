@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    margin: 0
+}
+
+h1 {
+    color: white;
+    width: fit-content;
+}
+
+h3 {
+    color: white;
+    width: fit-content;
+}
+
+p {
+    color: white;
+}
