@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+
+.headerButton {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border: black solid 1px;
+    font-size: 10px;
+}
+
+.headerText {
+    color: white;
+}
+
+.headerButton:hover {
+    background-color: lightblue;
+}

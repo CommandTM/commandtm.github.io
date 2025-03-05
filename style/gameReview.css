@@ -1,0 +1,23 @@
+.archiveItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.archiveItem img {
+    scale: 70%
+}
+
+.archiveItem h2 {
+    color: white;
+    width: fit-content;
+    margin: 0;
+}
+
+.capsuleSteamGrid {
+    aspect-ratio: 2/3;
+    width: 10%;
+    margin: 10px 16.5px;
+}
