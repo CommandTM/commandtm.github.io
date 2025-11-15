@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/LockToFirefox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Ok Just Ban Chrome And WebKit Specifically">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +79,44 @@
       <updated>1757558686523</updated>
       <workItem from="1757558687568" duration="152000" />
       <workItem from="1759611327597" duration="42000" />
-      <workItem from="1763184769168" duration="615000" />
+      <workItem from="1763184769168" duration="1257000" />
     </task>
+    <task id="LOCAL-00001" summary="Maybe The Firefox Lock Exists">
+      <option name="closed" value="true" />
+      <created>1763185713792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763185713792</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ok Just Ban Chrome And WebKit Specifically">
+      <option name="closed" value="true" />
+      <created>1763186024885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763186024885</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maybe The Firefox Lock Exists" />
+    <MESSAGE value="Ok Just Ban Chrome And WebKit Specifically" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok Just Ban Chrome And WebKit Specifically" />
   </component>
 </project>
