@@ -4,7 +4,7 @@ const lockHTML = '<div class="center" style="position: absolute; height: 100%; w
 
 console.log(window.navigator.userAgent)
 
-if (!window.navigator.userAgent.includes('Mozilla')) {
+if (window.navigator.userAgent.includes('Chrome') || window.navigator.userAgent.includes('AppleWebKit')) {
     console.log("KICK THEM OUT!!!")
     document.getElementsByTagName("body")[0].innerHTML += lockHTML;
     document.getElementsByTagName("body")[0].style.margin = "0";
