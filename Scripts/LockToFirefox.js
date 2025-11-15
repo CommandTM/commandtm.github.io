@@ -6,6 +6,6 @@ console.log(window.navigator.userAgent)
 
 if ((window.navigator.userAgent.includes('Chrome') || window.navigator.userAgent.includes('AppleWebKit')) && !window.navigator.userAgent.includes('Firefox')) {
     console.log("KICK THEM OUT!!!")
-    document.getElementsByTagName("body")[0].innerHTML += lockHTML;
+    document.getElementsByTagName("body")[0].innerHTML = lockHTML;
     document.getElementsByTagName("body")[0].style.margin = "0";
 }

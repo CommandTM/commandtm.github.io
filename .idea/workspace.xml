@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Ok Just Ban Chrome And WebKit Specifically">
+    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Please Fix My Script">
+      <change afterPath="$PROJECT_DIR$/Scripts/BetaContentLockout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/LockToFirefox.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/LockToFirefox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "maybe-ill-like-this-remake",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;maybe-ill-like-this-remake&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +82,8 @@
       <updated>1757558686523</updated>
       <workItem from="1757558687568" duration="152000" />
       <workItem from="1759611327597" duration="42000" />
-      <workItem from="1763184769168" duration="1257000" />
+      <workItem from="1763184769168" duration="1695000" />
+      <workItem from="1763243388231" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="Maybe The Firefox Lock Exists">
       <option name="closed" value="true" />
@@ -97,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763186024885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Please Fix My Script">
+      <option name="closed" value="true" />
+      <created>1763186249123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763186249123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maybe The Firefox Lock Exists" />
     <MESSAGE value="Ok Just Ban Chrome And WebKit Specifically" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ok Just Ban Chrome And WebKit Specifically" />
+    <MESSAGE value="Please Fix My Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Please Fix My Script" />
   </component>
 </project>
