@@ -1,5 +1,5 @@
 const lockHTML = '<div class="center" style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; background-color: yellow;">\n' +
-    '    <marquee><h1>Under Construction</h1></marquee>>\n' +
+    '    <marquee><h1>Under Construction</h1></marquee>\n' +
     '</div>'
 
 console.log(document.location.href)
