@@ -1,3 +1,8 @@
+@font-face {
+    font-family: w95fa;
+    src: url(../Assets/fonts/w95fa.woff);
+}
+
 .center {
     align-items: center;
     height: 100vh;

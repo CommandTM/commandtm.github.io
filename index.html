@@ -21,10 +21,9 @@
 
     .mainbody {
         width: 80%;
-        height: 100%;
-        left: 10%;
+        min-height: calc(100vh - 8px);
         background-color: white;
-        position: fixed;
+        margin-left: 10%;
         border-color: lightgray;
         border-style: solid;
         border-width: 4px;
@@ -33,8 +32,12 @@
     .titleheader {
         background-color: darkblue;
         color: white;
-        font-family: SansSerif;
-        font-size: 10px;
+        font-family: w95fa;
+        font-size: 15px;
+    }
+
+    .titleheader h1 {
+        margin: 5px;
     }
 
     .content {
@@ -119,12 +122,12 @@
             <tr>
                 <td>
                     <a href="https://bsky.app/profile/commandtm.bsky.social">
-                        <img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/600px-Bluesky_Logo.svg.png" alt="Logo of social media site Bluesky">
+                        <img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="Logo of social media site Bluesky">
                     </a>
                 </td>
                 <td>
                     <h4>Bluesky</h4>
-                    My Bluesky profile where I retweet Vocaloid art and pretend it is 2010.
+                    My Bluesky profile where I retweet Vocaloid art and pretend it is 2011.
                 </td>
             </tr>
             <tr>
@@ -168,8 +171,9 @@
                 </td>
             </tr>
         </table>
+        <img src="Assets/powered-by-debian.gif" style="max-width: 249px; position: fixed; bottom: 0; right: calc(10% + 245px);">
+        <img src="Assets/i_have_you_ip.gif" style="max-width: 249px; position: fixed; bottom: 0; right: calc(10% - 4px);">
     </div>
-
 </div>
 </body>
 </html>
