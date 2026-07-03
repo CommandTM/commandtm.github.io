@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Add Fun Buttons + New Font" />
+    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Add Fun Buttons + New Font">
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/4x3_fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/animegay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/floorpbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/getquake.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/gqmiku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/hello_kitty.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/lesbian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/linux.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/vocaloid_now.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/button-credits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/universal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +29,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,7 +50,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/CommandTM/commandtm.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;125c4ed8-40e1-416f-964e-c4e2c58ef2d4&quot;
+    &quot;accountId&quot;: &quot;3c2bf6c4-2af7-4e60-a7ba-ffd456f17ab2&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -48,6 +63,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,7 +72,7 @@
     "git-widget-placeholder": "maybe-ill-like-this-remake",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/mnt/neru/Documents/Projects/command-net/Assets",
+    "last_opened_file_path": "/mnt/neru/Documents/Projects/command-net/Assets/images/buttons",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,11 +85,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assets/images/buttons" />
+      <recent name="$PROJECT_DIR$/Assets/images" />
       <recent name="$PROJECT_DIR$/Assets" />
       <recent name="$PROJECT_DIR$/Assets/fonts" />
       <recent name="E:\Project Repositories\commandtm.github.io\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assets/images/buttons" />
       <recent name="E:\Project Repositories\commandtm.github.io\Assets\images\index" />
     </key>
   </component>
@@ -100,6 +119,10 @@
       <workItem from="1763322155097" duration="4863000" />
       <workItem from="1763331462143" duration="4135000" />
       <workItem from="1770436609144" duration="7285000" />
+      <workItem from="1770680408102" duration="674000" />
+      <workItem from="1772239602730" duration="185000" />
+      <workItem from="1775187157323" duration="38000" />
+      <workItem from="1783051812133" duration="4452000" />
     </task>
     <task id="LOCAL-00001" summary="Maybe The Firefox Lock Exists">
       <option name="closed" value="true" />
@@ -133,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763245569069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Fun Buttons + New Font">
+      <option name="closed" value="true" />
+      <created>1770680460519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770680460519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +186,7 @@
     <MESSAGE value="Ok Just Ban Chrome And WebKit Specifically" />
     <MESSAGE value="Please Fix My Script" />
     <MESSAGE value="Start Making New Home Page + Under Construction Censoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Making New Home Page + Under Construction Censoring" />
+    <MESSAGE value="Add Fun Buttons + New Font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Fun Buttons + New Font" />
   </component>
 </project>

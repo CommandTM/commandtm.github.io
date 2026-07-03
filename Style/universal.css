@@ -12,3 +12,45 @@
     position: fixed;
     justify-content: center;
 }
+
+.gqhover {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    margin: -4px 0;
+
+    &:hover {
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #c6a6ff, white, #76d67d) 1;
+    }
+}
+
+.gqhover-text {
+    &:hover {
+        background-image: linear-gradient(to bottom, #c6a6ff, white, #76d67d);
+        color: transparent;
+        background-clip: text;
+    }
+}
+
+.lbhover {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    margin: -4px 0;
+
+    &:hover {
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #d84a24, #ff914f, white, #d75fa6, #9e095b) 1;
+    }
+}
+
+.lbhover-text {
+    &:hover {
+        background-image: linear-gradient(to bottom, #d84a24, #ff914f, white, #d75fa6, #9e095b);
+        color: transparent;
+        background-clip: text;
+    }
+}
