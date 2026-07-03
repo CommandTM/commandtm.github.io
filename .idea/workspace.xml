@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Add Fun Buttons + New Font">
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/4x3_fade.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/animegay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/floorpbutton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/getquake.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/gqmiku.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/hello_kitty.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/lesbian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/linux.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/images/buttons/vocaloid_now.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/button-credits.html" afterDir="false" />
+    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Slight Site Brushup">
+      <change afterPath="$PROJECT_DIR$/Scripts/PronounRandomizer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/universal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "maybe-ill-like-this-remake",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/mnt/neru/Documents/Projects/command-net/Assets/images/buttons",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;maybe-ill-like-this-remake&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/neru/Documents/Projects/command-net/Assets/images/buttons&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Assets/images/buttons" />
@@ -122,7 +112,8 @@
       <workItem from="1770680408102" duration="674000" />
       <workItem from="1772239602730" duration="185000" />
       <workItem from="1775187157323" duration="38000" />
-      <workItem from="1783051812133" duration="4452000" />
+      <workItem from="1783051812133" duration="4905000" />
+      <workItem from="1783094364140" duration="1440000" />
     </task>
     <task id="LOCAL-00001" summary="Maybe The Firefox Lock Exists">
       <option name="closed" value="true" />
@@ -164,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770680460519</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Slight Site Brushup">
+      <option name="closed" value="true" />
+      <created>1783056288493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783056288493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +186,7 @@
     <MESSAGE value="Please Fix My Script" />
     <MESSAGE value="Start Making New Home Page + Under Construction Censoring" />
     <MESSAGE value="Add Fun Buttons + New Font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Fun Buttons + New Font" />
+    <MESSAGE value="Slight Site Brushup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slight Site Brushup" />
   </component>
 </project>
