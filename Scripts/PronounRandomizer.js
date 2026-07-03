@@ -7,3 +7,13 @@ for (let girl_boy of girl_boy_spans) {
         girl_boy.innerHTML = girl_boy.classList.contains("capital")? "Boy" : "boy"
     }
 }
+
+let her_his_spans = document.getElementsByClassName("her-his")
+
+for (let her_his of her_his_spans) {
+    if (Math.random() > 0.49) {
+        her_his.innerHTML = her_his.classList.contains("capital")? "Her" : "her"
+    } else {
+        her_his.innerHTML = her_his.classList.contains("capital")? "His" : "his"
+    }
+}
