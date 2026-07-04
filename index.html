@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Command Center</title>
     <link rel="stylesheet" href="Style/universal.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/images/favicon.png">
 </head>
 <style>
     body {
@@ -30,10 +31,17 @@
     }
 
     .titleheader {
-        background-color: darkblue;
+        background-image: linear-gradient(to right, #000080, #1083cf);
         color: white;
         font-family: w95fa;
         font-size: 15px;
+        position: relative;
+
+        .nine-x-buttons {
+            position: absolute;
+            top: 5.5px;
+            right: 5px;
+        }
     }
 
     .titleheader h1 {
@@ -70,13 +78,34 @@
         color: black;
         text-decoration: none;
     }
+
+    .nine-x-button {
+        max-height: 35px;
+    }
+
+    .nine-x-buttons {
+        font-size: 0;
+
+        .full {
+            margin-right: 5px;
+        }
+    }
+
+    .behind {
+        z-index: -999;
+    }
 </style>
 <body>
-<div class="mainbody">
+<div class="mainbody" id="mainbody">
     <div class="titleheader">
-        <marquee scrollamount="20">
+        <marquee class="header-text" scrollamount="20" direction="right" >
             <h1>Command Center</h1>
         </marquee>
+        <div class="nine-x-buttons" >
+            <a onclick="hideContent()" style="cursor: pointer"><img class="nine-x-button min" src="Assets/images/index/9x-min.png" alt="Windows 9x titlebar minimize button" /></a>
+            <a onclick="fullscreen()" style="cursor: pointer"><img class="nine-x-button full" src="Assets/images/index/9x-full.png" alt="Windows 9x titlebar fullscreen button" /></a>
+            <a tabindex="-1" href="404.html"><img class="nine-x-button x" src="Assets/images/index/9x-x.png" alt="Windows 9x titlebar exit button" /></a>
+        </div>
     </div>
     <div class="content">
         Hiii!! I'm CommandTM, and this is my website!!! There's not much here yet, but I'm working on it!
@@ -258,6 +287,43 @@
         <img src="Assets/i_have_you_ip.gif" style="max-width: 249px; position: fixed; bottom: 0; right: calc(10% - 4px);">
     </div>
 </div>
+<div class="center behind hidden" id="behindbody">
+    <img style="max-width: 500px" src="Assets/images/index/yuri44.jpg" alt="Women kissing">
+    <p>
+        Hey!!! Rude!!!! You walked in on me and my girlfriend >:(
+        <br>
+        If you're going to be a pervert at least go <a href="https://www.silver.catsmp.gay">visit her site</a>.
+        <br>
+        Or you can <button onclick="showContent()">Return</button> to mine.
+    </p>
+</div>
 </body>
 <script src="Scripts/PronounRandomizer.js"></script>
+<script>
+    function fullscreen() {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.msRequestFullscreen) {
+            document.documentElement.msRequestFullscreen();
+        }
+    }
+
+    function hideContent() {
+        let main = document.getElementById("mainbody");
+        let behind = document.getElementById("behindbody")
+
+        main.classList.add("hidden");
+        behind.classList.remove("hidden");
+    }
+
+    function showContent() {
+        let main = document.getElementById("mainbody");
+        let behind = document.getElementById("behindbody")
+
+        main.classList.remove("hidden");
+        behind.classList.add("hidden");
+    }
+</script>
 </html>
