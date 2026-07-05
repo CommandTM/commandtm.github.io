@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Command's Guest Book</title>
+    <link rel="stylesheet" href="/Style/universal.css">
+    <link rel="stylesheet" href="/Style/9x.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/images/favicon.png">
+</head>
+<style>
+    .content {
+        height: calc(100vh - 8px - 52px - 25px - 10px);
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+</style>
+<body>
+<div class="mainbody">
+    <div class="titleheader">
+        <marquee class="header-text" scrollamount="20" direction="right" >
+            <h1>Guest Book</h1>
+        </marquee>
+        <div class="nine-x-buttons" >
+            <img class="nine-x-button min" src="Assets/images/index/9x-min.png" alt="Windows 9x titlebar minimize button" />
+            <img class="nine-x-button full" src="Assets/images/index/9x-full.png" alt="Windows 9x titlebar fullscreen button" />
+            <img class="nine-x-button x" src="Assets/images/index/9x-x.png" alt="Windows 9x titlebar exit button" />
+        </div>
+    </div>
+    <div class="header-buttons">
+        <a href="index.html"><button>Home</button></a>
+        <a href="guestbook.html"><button>Guest Book</button></a>
+    </div>
+    <div class="content">
+        <iframe src="https://commandtm.atabook.org/"></iframe>
+        <a href="https://atabook.org/"><img src="/Assets/images/buttons/atabook-button.gif" style="position: fixed; bottom: 4px; right: calc(10% - 4px);"></a>
+    </div>
+</div>
+</body>
+</html>

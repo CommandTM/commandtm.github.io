@@ -1,0 +1,70 @@
+@font-face {
+    font-family: w95fa;
+    src: url("/Assets/fonts/w95fa.woff");
+}
+
+body {
+    background-color: darkcyan;
+    margin: 0;
+}
+
+.mainbody {
+    width: 80%;
+    min-height: calc(100vh - 8px);
+    background-color: white;
+    margin-left: 10%;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.titleheader {
+    background-image: linear-gradient(to right, #000080, #1083cf);
+    color: white;
+    font-family: w95fa;
+    font-size: 15px;
+    position: relative;
+
+    .nine-x-buttons {
+        position: absolute;
+        top: 5.5px;
+        right: 5px;
+    }
+}
+
+.titleheader h1 {
+    margin: 5px;
+}
+
+.content {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.nine-x-button {
+    max-height: 35px;
+}
+
+.nine-x-buttons {
+    font-size: 0;
+
+    .full {
+        margin-right: 5px;
+    }
+}
+
+.header-buttons {
+    background: lightgrey;
+    font-size: 0;
+
+    button {
+        font-family: w95fa;
+        border-radius: 0;
+        border-color: transparent;
+        background: lightgrey;
+
+        &:hover {
+            border-color: white;
+        }
+    }
+}
