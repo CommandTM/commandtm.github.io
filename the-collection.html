@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Collection</title>
+    <link rel="stylesheet" href="/Style/universal.css">
+    <link rel="stylesheet" href="/Style/9x.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/images/favicon.png">
+</head>
+<style>
+    .horizontalCenter {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .containerBorder {
+        border: 2px outset black;
+        width: calc(100% - 4px);
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .article {
+        width: calc(100% - 12px);
+        max-width: calc(100% - 12px);
+        background: lightgray;
+        margin: 4px;
+        border: 2px outset black;
+    }
+
+    .article-image {
+        height: 150px;
+        width: 100%;
+        max-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .article-title {
+        margin: 2px;
+        background: white;
+        text-align: center;
+        border: 2px outset black;
+    }
+</style>
+<body>
+<div class="mainbody">
+    <div class="titleheader">
+        <marquee class="header-text" scrollamount="20" direction="right" >
+            <h1>The Collection</h1>
+        </marquee>
+        <div class="nine-x-buttons" >
+            <img class="nine-x-button min" src="Assets/images/index/9x-min.png" alt="Windows 9x titlebar minimize button" />
+            <img class="nine-x-button full" src="Assets/images/index/9x-full.png" alt="Windows 9x titlebar fullscreen button" />
+            <img class="nine-x-button x" src="Assets/images/index/9x-x.png" alt="Windows 9x titlebar exit button" />
+        </div>
+    </div>
+    <div class="header-buttons">
+        <a href="index.html"><button>Home</button></a>
+        <a href="guestbook.html"><button>Guest Book</button></a>
+        <a href="the-collection.html"><button>The Collection</button></a>
+    </div>
+    <div class="content">
+        <p>This is my page for my growing collection of things! I've been collecting video games for the past few years and have recently decided to branch out into other things.
+            <br>
+            I hope you enjoy browsing my selection!
+        </p>
+        <div class="horizontalCenter">
+            <a title="Coming Soon!"><button disabled="disabled">Browse The Full Collection</button></a>
+            <h2>Featured Items</h2>
+        </div>
+        <div class="containerBorder" id="featured_additions">
+        </div>
+        <div class="horizontalCenter">
+            <h2>Recent Additions</h2>
+        </div>
+        <div class="containerBorder" id="recent_additions">
+        </div>
+    </div>
+</div>
+</body>
+<!-- TEMPLE ARTICLE
+<div class="article">
+    <div class="article-image">
+        <img src="">
+    </div>
+    <a href="">
+        <h3 class="article-title">
+            Template
+        </h3>
+    </a>
+</div>
+-->
+<script src="Scripts/CollectionAPIDataGetter.js"></script>
+<script src="Scripts/CollectionDisplayer.js"></script>
+<script>
+    async function addRecent() {
+        await getGames()
+        addRecentHtml("recent_additions")
+        addFeaturedHtml("featured_additions", await getFeatured())
+    }
+
+    addRecent()
+</script>
+</html>
