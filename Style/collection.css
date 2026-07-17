@@ -1,0 +1,35 @@
+.article {
+    width: calc(100% - 12px);
+    max-width: calc(100% - 12px);
+    background: lightgray;
+    margin: 4px;
+    border: 2px outset black;
+}
+
+.article-image {
+    height: 150px;
+    width: 100%;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.article-title {
+    margin: 2px;
+    background: white;
+    text-align: center;
+    border: 2px outset black;
+}
+
+.containerBorder {
+    border: 2px outset black;
+    width: calc(100% - 4px);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}

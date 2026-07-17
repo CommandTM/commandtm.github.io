@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Collection</title>
+    <link rel="stylesheet" href="/Style/universal.css">
+    <link rel="stylesheet" href="/Style/9x.css">
+    <link rel="stylesheet" href="/Style/collection.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/images/favicon.png">
+</head>
+<style>
+    .warning {
+        background: darkred;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px 0;
+
+        p {
+            color: white;
+            font-weight: 600;
+        }
+    }
+
+    .containerBorder {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            text-align: center;
+        }
+    }
+</style>
+<body>
+<div class="mainbody">
+    <div class="titleheader">
+        <marquee class="header-text" scrollamount="20" direction="right" >
+            <h1>The Collection</h1>
+        </marquee>
+        <div class="nine-x-buttons" >
+            <img class="nine-x-button min" src="../Assets/images/index/9x-min.png" alt="Windows 9x titlebar minimize button" />
+            <img class="nine-x-button full" src="../Assets/images/index/9x-full.png" alt="Windows 9x titlebar fullscreen button" />
+            <img class="nine-x-button x" src="../Assets/images/index/9x-x.png" alt="Windows 9x titlebar exit button" />
+        </div>
+    </div>
+    <div class="header-buttons">
+        <a href="../index.html"><button>Home</button></a>
+        <a href="../guestbook.html"><button>Guest Book</button></a>
+        <a href="landing.html"><button>The Collection</button></a>
+    </div>
+    <div class="content">
+        <div class="warning">
+            <p>
+                THE COLLECTION IS NOT FULLY CATALOGED!!!!!!!!
+                <br>
+                Records Are Still Being Added And This Listing Page Is Incomplete
+            </p>
+        </div>
+        <form id="searching">
+            <div class="containerBorder">
+                <div class="article">
+                    <label for="sort">Sort</label>
+                    <select id="sort">
+                        <option value="name">Name</option>
+                        <option value="date">Day Added</option>
+                    </select>
+                </div>
+                <div class="article">
+                    <label for="type">Type</label>
+                    <select id="type">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div  class="article">
+                    <label for="format">Format</label>
+                    <select id="format">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="article">
+                    <label for="condition">Condition</label>
+                    <select id="condition">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="article">
+                    <label for="title">Title</label>
+                    <input id="title" type="text">
+                </div>
+                <div></div>
+                <div></div>
+                <input type="Submit" value="Search">
+            </div>
+        </form>
+        <div class="containerBorder" id="results"></div>
+    </div>
+</div>
+</body>
+<script src="../Scripts/CollectionAPIDataGetter.js"></script>
+<script src="../Scripts/CollectionDisplayer.js"></script>
+<script>
+    var form = document.querySelector("#searching")
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault()
+        setParams()
+    })
+
+    async function addResults() {
+        await getGames()
+        let params = new URLSearchParams(document.location.search)
+
+        addResultsHtml("results", [params.get("type"), params.get("format"), params.get("condition"), params.get("title")], params.get("sort"))
+
+        addFormOptions("type", getTypes())
+        addFormOptions("format", getFormats())
+        addFormOptions("condition", getConditions())
+
+        setFormFromParams()
+    }
+
+    function setFormFromParams() {
+        let params = new URLSearchParams(document.location.search)
+
+        document.getElementById("type").value = params.get("type")
+        document.getElementById("format").value = params.get("format")
+        document.getElementById("condition").value = params.get("condition")
+        document.getElementById("title").value = params.get("title")
+        if (params.get("sort")) {
+            document.getElementById("sort").value = params.get("sort")
+        }
+    }
+
+    function setParams() {
+        let url = new URL(window.location)
+
+        let type = document.getElementById("type").value
+        if (type !== "") {
+            url.searchParams.set("type", document.getElementById("type").value)
+        } else {
+            url.searchParams.delete("type")
+        }
+
+        let format = document.getElementById("format").value
+        if (format !== "") {
+            url.searchParams.set("format", document.getElementById("format").value)
+        } else {
+            url.searchParams.delete("format")
+        }
+
+        let condition = document.getElementById("condition").value
+        if (condition !== "") {
+            url.searchParams.set("condition", document.getElementById("condition").value)
+        } else {
+            url.searchParams.delete("condition")
+        }
+
+        let title = document.getElementById("title").value
+        if (title !== "") {
+            url.searchParams.set("title", document.getElementById("title").value)
+        } else {
+            url.searchParams.delete("title")
+        }
+
+        let sort = document.getElementById("sort").value
+        if (sort !== "name") {
+            url.searchParams.set("sort", document.getElementById("sort").value)
+        } else {
+            url.searchParams.delete("sort")
+        }
+
+        window.location = url.href
+    }
+
+    addResults()
+</script>
+</html>

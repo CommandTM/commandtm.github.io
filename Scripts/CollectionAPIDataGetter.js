@@ -30,3 +30,51 @@ async function getFeatured() {
         console.error(error)
     }
 }
+
+function getTypes() {
+    let types = []
+
+    global_games.forEach(game => {
+        if (!types.includes(game.type)){
+            types.push(game.type)
+        }
+    })
+
+    return types
+}
+
+function getFormats() {
+    let types = []
+
+    global_games.forEach(game => {
+        if (!types.includes(game.format)){
+            types.push(game.format)
+        }
+    })
+
+    return types
+}
+
+function getConditions() {
+    let types = []
+
+    global_games.forEach(game => {
+        if (!types.includes(game.condition)){
+            types.push(game.condition)
+        }
+    })
+
+    return types
+}
+
+function unIdify(id) {
+    let words = id.split("-")
+
+    words.forEach(word => {
+        word.charAt(0).toUpperCase()
+    })
+
+    id = words.join(" ")
+
+    return id
+}
