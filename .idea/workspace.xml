@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Remove line about physical media blog">
-      <change afterPath="$PROJECT_DIR$/Style/collection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-collection/listing.html" afterDir="false" />
+    <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Browse Full Collection Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/CollectionAPIDataGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/CollectionAPIDataGetter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/CollectionDisplayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/CollectionDisplayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guestbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/guestbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/the-collection/landing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +126,7 @@
       <workItem from="1783997881386" duration="215000" />
       <workItem from="1784069264184" duration="6067000" />
       <workItem from="1784078702418" duration="624000" />
-      <workItem from="1784245040822" duration="7371000" />
+      <workItem from="1784245040822" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="Maybe The Firefox Lock Exists">
       <option name="closed" value="true" />
@@ -239,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784078722650</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Browse Full Collection Page">
+      <option name="closed" value="true" />
+      <created>1784252923263</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1784252923263</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +271,7 @@
     <MESSAGE value="Sky Button + Rearranging" />
     <MESSAGE value="The Collection Update" />
     <MESSAGE value="Remove line about physical media blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove line about physical media blog" />
+    <MESSAGE value="Browse Full Collection Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Browse Full Collection Page" />
   </component>
 </project>

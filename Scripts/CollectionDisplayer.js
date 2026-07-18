@@ -4,7 +4,7 @@ function htmlifyGame(game) {
     return `
         <div class="article">
             <div class="article-image">
-                <img src="${game.images[game.thumbnail_image_id].link}">
+                <img src="${game.images[game.thumbnail_image_id].link}" alt="${game.images[game.thumbnail_image_id].alt? game.images[game.thumbnail_image_id].alt : `Cover art of ${game.name}`}">
             </div>
             <h3 class="article-title">
                 ${game.name}
