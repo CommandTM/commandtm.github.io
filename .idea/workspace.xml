@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1d79fb53-62aa-4023-b99c-8251678323db" name="Changes" comment="Browse Full Collection Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollectionAPIDataGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/CollectionAPIDataGetter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

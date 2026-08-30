@@ -11,8 +11,13 @@ async function getGames() {
 
         global_games = await response.json()
         global_games.forEach(game => {
-            game.date_added = new Date(game.date_added)
+            if (game.date_added != null) {
+                game.date_added = new Date(game.date_added)
+            } else {
+                game.date_added = null
+            }
         })
+        console.log(global_games)
     } catch (error) {
         console.error(error)
     }
